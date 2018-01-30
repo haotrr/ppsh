@@ -1,0 +1,9 @@
+./app -hosts "192.168.1.101;192.168.1.102" -cmds "echo hello && echo good" -u root -w 123456
+
+./app -hosts "192.168.1.101;192.168.1.101" -cmds "echo hello && echo good" -u root -w 123456 -out-format json
+
+./app -ip-range "192.168.1.101-192.168.1.104" -cmds "echo hello && echo good" -u root -w 123456
+
+./app -ip-range "192.168.1.101-192.168.1.104" -cmds "echo hello && echo good" -u root -w 123456 -out-format json
+
+./app --hosts "localhost;localhost" --port 50001 --cmds "echo good;echo hello" --user root --password 123456 --format json

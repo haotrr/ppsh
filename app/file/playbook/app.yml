@@ -1,0 +1,16 @@
+- host:
+  ip: localhost
+  password: 123456
+  platform: linux
+  port: 50001
+  taskbook: "./file/task/task.yml"
+  timeout: 30
+  user: root
+- host:
+  ip: localhost
+  port: 50001
+  password: 123456
+  platform: linux
+  tasks:
+    - echo hello
+    - echo goodbye
