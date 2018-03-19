@@ -22,7 +22,8 @@ var (
 		"aes128-cbc",
 		"3des-cbc",
 		"aes192-cbc",
-		"aes256-cbc"}
+		"aes256-cbc",
+	}
 
 	defaultHost     = "localhost"
 	defaultUser     = "root"
