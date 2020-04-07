@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/qinhao/ppsh"
+	"github.com/haotrr/ppsh"
 	"github.com/urfave/cli"
 	yaml "gopkg.in/yaml.v2"
 )

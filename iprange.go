@@ -3,7 +3,7 @@ package ppsh
 import (
 	"strings"
 
-	"github.com/qinhao/ppsh/iputil"
+	"github.com/haotrr/ppsh/iputil"
 )
 
 // ParseIPRange parses addr(s) into a list of IPs.
