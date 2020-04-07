@@ -19,8 +19,8 @@ var (
 	Name      = "ppsh"
 	Usage     = "Pull or Push via SSH in your cluster hosts."
 	Version   = "0.0.1"
-	Author    = "qinhao"
-	Email     = "qinhao@qinhao.me"
+	Author    = "haotrr"
+	Email     = "haotrrdot@gmail.com"
 	BuildTime = "2000-02-02T00:00:00+0800"
 )
 
